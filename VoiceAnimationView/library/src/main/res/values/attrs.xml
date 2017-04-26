@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MovableVolumeAnimView">
+        <attr name="shapeColor" format="color" />
+        <attr name="itemWidth" format="dimension" />
+        <attr name="itemSpec" format="dimension" />
+        <attr name="midSpec" format="dimension" />
+        <attr name="animDirection">
+            <enum name="left_to_right" value="0" />
+            <enum name="right_to_left" value="1" />
+            <enum name="mid_to_sides" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>
